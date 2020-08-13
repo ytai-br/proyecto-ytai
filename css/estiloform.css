@@ -1,0 +1,31 @@
+.Form{
+    width: 100%;
+    text-align:center;
+}
+.header{
+    overflow: hidden;
+    background-color: rgba(133, 103, 60, 0.849);
+  }
+.header a{
+    text-decoration: solid;
+    font-size: 25px;
+    display: inline-block;
+    color: rgb(245, 245, 247);
+    padding: 14px 16px;
+  }
+.iz{
+    text-align: center;
+    float: left;
+  }
+.de{
+    text-align: end;
+    float: right;
+  }
+.header a:hover{
+    background-color: rgb(43, 19, 12);
+    color: azure;
+  }
+.header a.active{
+    background-color: cornsilk;
+    color: aqua;
+  }
